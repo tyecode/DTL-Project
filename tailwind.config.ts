@@ -10,15 +10,20 @@ module.exports = {
   theme: {
     fontFamily: {
       roboto: ['Roboto', 'sans-serif'],
+      spartan: ['League Spartan', 'sans-serif'],
+      lilita: ['Lilita One', 'sans-serif'],
     },
     container: {
       center: true,
-      padding: '2rem',
       screens: {
-        '2xl': '1400px',
+        '2xl': '1440px',
       },
     },
     extend: {
+      transitionDuration: {
+        '2000': '2000ms',
+        '1500': '1500ms',
+      },
       colors: {
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
